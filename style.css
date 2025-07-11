@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #F53838;
+    --tertiary-color: #F53855;
+    --quaternary-color: #F6F6F6;
+    --text-color: #4F5665;
+    --topic-color: #0B132A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: var(--quaternary-color); */
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+}
+
+.container .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    height: 45px;
+    margin-top: 45.62px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .navbar .logo, .container .navbar .logo img{
+    width: 100%;
+    max-width: 149px;
+    height: 36.23px;
+}
+
+.container .navbar .nav-links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    height: 19px;
+    margin-left: 157px;
+    gap: 40px;
+}
+
+.container .navbar .nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.container .navbar .sign-in-up {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 233px;
+    height: 45px;
+    margin-left: 150px;
+}
+
+.container .navbar .sign-in-up a {
+    text-decoration: none;
+    color: var(--topic-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .navbar .sign-in-up button {
+    width: 100%;
+    max-width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid var(--tertiary-color);
+    cursor: pointer;
+    background-color: var(--primary-color);
+    margin-left: 30px;
+    a {
+        color: var(--tertiary-color);
+    }
+}
+
+.container .navbar .sign-in-up button:hover {
+    background-color: var(--tertiary-color);
+    transition: 0.3s ease;
+    a {
+        color: var(--primary-color);
+    }
+}
