@@ -101,14 +101,13 @@
     margin-top: 88.49px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    display: flex;
 }
 
 .container .content1 .text {
     width: 100%;
     max-width: 555px;
     height: 355.29px;
-    border: 1px solid red;
 }
 
 .container .content1 .text h1 {
@@ -153,4 +152,75 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
     transition: 0.3s ease;
+}
+
+.container .content1 .images {
+    width: 100%;
+    max-width: 611.24px;
+    height: 382.44px;
+    position: relative;
+    margin-left: 40.76px;
+}
+
+.container .content1 .images .people {
+    position: absolute;
+    width: 100%;
+    max-width: 380.1px;
+    height: 324.05px;
+    bottom: 0;
+    left: 102.16px;
+}
+
+.container .content1 .images .coffee {
+    position: absolute;
+    width: 100%;
+    max-width: 79.71px;
+    height: 176.44px;
+    left: 0;
+    bottom: 0;
+}
+
+.container .content1 .images .lamp {
+    position: absolute;
+    width: 100%;
+    max-width: 135.17px;
+    height: 186.64px;
+    right: 0;
+    bottom: 0;
+}
+
+.container .content1 .images .lock {
+    position: absolute;
+    width: 100%;
+    max-width: 101.88px;
+    height: 79.45px;
+    top: 0;
+    left: 14.9px;
+}
+
+.container .content1 .images .netflix {
+    position: absolute;
+    width: 100%;
+    max-width: 69.96px;
+    height: 54.56px;
+    top: 133.84px;
+    left: 68.86px;
+}
+
+.container .content1 .images .play {
+    position: absolute;
+    width: 100%;
+    max-width: 75.79px;
+    height: 59.1px;
+    top: 0;
+    left: 321.93px;
+}
+
+.container .content1 .images .chart {
+    position: absolute;
+    width: 100%;
+    max-width: 112.92px;
+    height: 82.37px;
+    right: 62.72px;
+    top: 66.06px;
 }
