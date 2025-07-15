@@ -224,3 +224,62 @@
     right: 62.72px;
     top: 66.06px;
 }
+
+.container .content2 {
+    width: 100%;
+    max-width: 1140px;
+    height: 200px;
+    margin-top: 103px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 60px 60px -19px rgb(0 0 0 / 11%);
+}
+
+.container .content2 .box1, .container .content2 .box2, .container .content2 .box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.container .content2 .box1 {
+    width: 100%;
+    max-width: 365.5px;
+    border: 1px solid var(--tertiary-color);
+}
+
+.container .content2 .box2 {
+    width: 100%;
+    max-width: 430px;
+    border: 1px solid var(--tertiary-color);
+}
+
+.container .content2 .box3 {
+    width: 100%;
+    max-width: 344.5px;
+    border: 1px solid var(--tertiary-color);
+}
+
+.container .content2 .box1 img, .container .content2 .box2 img, .container .content2 .box3 img {
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+}
+
+.container .content2 .box1 .text div:first-child, .container .content2 .box2 .text div:first-child, .container .content2 .box3 .text div:first-child {
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--topic-color);
+    font-weight: bold;
+}
+
+.container .content2 .box1 .text div:last-child, .container .content2 .box2 .text div:last-child, .container .content2 .box3 .text div:last-child {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+
+
